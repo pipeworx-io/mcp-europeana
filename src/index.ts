@@ -65,7 +65,9 @@ async function callTool(name: string, args: Record<string, unknown>): Promise<un
       const limit = clamp(numArg(args.limit, 20), 1, 100);
       const page = Math.max(1, numArg(args.page, 1));
       const p = new URLSearchParams({ 'wskey': key, 'query': String(args.query ?? ''), 'rows': String(limit) });
-      p.set('start', String((page - 1) * limit));
+      // Europeana's `start` is 1-based — page 1 must send start=1, not 0
+      // (start=0/negative → "400 'start' parameter cannot be negative").
+      p.set('start', String((page - 1) * limit + 1));
       return get(`${BASE}/search.json?${p}`);
     }
     case 'record': {

@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/europeana",
   "title": "Europeana",
   "description": "Europeana MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/europeana",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-europeana",

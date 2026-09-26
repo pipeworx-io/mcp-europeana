@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-europeana",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Europeana MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-68827fbb142305bf41ac0d6556ca9ef445868b8b0516f0f111968b2b2a978838",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-7249c7628b9aa5c2b79882586f11d80ebc75f25b3fd816bd8e9fb7e3fd213805",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }

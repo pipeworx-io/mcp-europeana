@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-europeana",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Europeana MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "europeana",
     "gatewaySlug": "europeana",
-    "sourceHash": "v1-6335d556877c7bee8ec0c6a2ef1bb616234d5e2755a75cef71645e32a90ce2f6",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-bdd8f38814aaa16e3911f36837d32483eae1a3ef917f76a70a94b07e8c83d666",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
